@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="reg.css">
+        <title>Sign Up</title>
+
+    </head>
+    <body>
+
+    <section class="h-100 bg">
+  <div class="container py-5 h-250">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-registration my-2">
+          <div class="row g-0">
+            <div class="col-xl-6 d-none d-xl-block">
+              <img src="redback.jpg"
+                class="img-fluid2"
+                style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+            </div>
+            <div class="col-xl-6">
+              <div class="card-body p-md-5">
+                <h4 class="mb-5 text-uppercase" style="color:red; text-align:center; font-family:slab-serif">Sign Up</h4>
+                
+                <form action="reg.php" method="post" autocomplete="off">
+                  
+                <p calss="success register-success"></p>
+                  
+                  <div class="row">
+                  <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                  <label class="form-label" for="form3Example1m">First name</label>
+                  <input type="text" id="form3Example1m" name="fname" class="form-control form-control-lg" placeholder="First Name"/>
+                  
+                </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                  <label class="form-label" for="form3Example1n">Last name</label>
+                  <input type="text" id="form3Example1n" name="lname" class="form-control form-control-lg" placeholder="Last Name"/>
+                  
+                </div>
+                  </div>
+                </div>
+
+                  <div class="form-outline mb-4">
+                  <label class="form-label" for="form3Example8">Address</label>
+                  <input name="address" type="text" id="form3Example1" name="address" class="form-control form-control-lg" placeholder="Address"/>
+                 
+                </div>
+
+                  <div class="row">
+                  <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                  <label class="form-label" for="form3Example1m">E-mail</label>
+                  <input type="text" id="form3Example1m" name="email" class="form-control form-control-lg" placeholder="E-mail"/>
+                  
+                </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                  <label class="form-label" for="form3Example1n">Password</label>
+                  <input type="password" id="form3Example1n" name="password" class="form-control form-control-lg" placeholder="Password"/>
+                   
+                </div>
+                  </div>
+                </div>
+
+                  <div class="d-flex justify-content-end pt-2">
+                    <div class="col-md-12 text-center">
+                    <button type="submit"  class="btn btn-primary btn-lg mr-5">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+<script src="reg.js"></script>
+</html>

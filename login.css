@@ -1,0 +1,70 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url('back2.jpg');
+    
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 25px;
+  }
+
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid orange;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius:25px;
+  }
+
+  .btn-primary {
+    background-color:black;
+    border-color:black;
+    color:orange;
+}
+
+.btn-primary:hover{
+    background-color:orange;
+    border-color: orange;
+    color: black;
+    transition-duration: 1s;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 115%;
+}
+
+.img-fluid2{
+    height: 100%;
+    width: 110%;
+}
+
+::-webkit-input-placeholder {
+    font-size: 12px;
+ }
+
+ .form-control::placeholder {
+    color: rgb(228, 218, 218);
+ }

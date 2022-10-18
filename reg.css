@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url('redblack.jpg');
+    
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 25px;
+  }
+
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius:25px;
+  }
+
+  .btn-primary {
+    background-color:red;
+    border-color:red;
+    color:black;
+}
+
+.btn-primary:hover{
+    background-color:black;
+    border-color: black;
+    color: red;
+    transition-duration: 1s;
+}
+
+.img-fluid{
+    height: 100%;
+    width: 115%;
+}
+
+.img-fluid2{
+    height: 100%;
+    width: 100%;
+    
+}
+
+::-webkit-input-placeholder {
+    font-size: 12px;
+ }
+
+ .form-control::placeholder {
+    color: rgb(228, 218, 218);
+ }
